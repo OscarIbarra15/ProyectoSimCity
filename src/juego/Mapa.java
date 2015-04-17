@@ -1,4 +1,5 @@
 package juego;
+
 import java.util.Vector;
 
 public class Mapa 
@@ -32,7 +33,9 @@ public class Mapa
 	}
 
 	@Override
-	public String toString() {
-		return "Mapa [calles=" + calles + ", intersecciones=" + intersecciones + "]";
+	public String toString() 
+	{
+		return "Mapa [calles=" + calles + ", intersecciones=" + intersecciones
+				+ "]";
 	}
 }
